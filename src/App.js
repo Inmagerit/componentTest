@@ -7,7 +7,7 @@ function App() {
   return (
     <>
  
-<Sprinter content='test content' title='test title'/>
+<Sprinter content='test content' title='test title' imageUrl='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThMUxXhH9z6KjQA5vPYaSaVU-ST5L6Ohcol9Prylwj2OMoGclivCEXpnIFmpNNw-wAywg&usqp=CAU'/>
     </>
   );
 }
