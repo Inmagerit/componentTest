@@ -1,19 +1,20 @@
 // import React from 'react'
 
-const sprinter = () => {
+const Sprinter = ({content},{title}) => {
     return (
         <>
             <section className='sectionWraper'>
-                <div className='row'>
+                <div className='row' id='containerTitle'>
                     <div className="col bg-12 md-12 sm-12">
-                        <p>hello</p>
+                        <p>{title}</p>
                     </div>
                 </div>
                 <div className='row'>
-                    <div className='col bg-6 md-6 sm-12'>
-                        <p>hello world</p>
+                    <div className='col bg-6 md-12 sm-12' id='containerText'>
+                        <p>{content}</p>
                     </div>
-                    <div className='col bg-6 md-6 sm-12'>
+                    <div className='col bg-6 md-12 sm-12' id='containerImage'>
+                    
                         <p>hello world</p>
                     </div>
                 </div>
@@ -22,4 +23,4 @@ const sprinter = () => {
     );
 };
 
-export default sprinter;
+export default Sprinter;
